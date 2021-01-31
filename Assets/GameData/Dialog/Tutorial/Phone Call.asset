@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13f73377db4c774a9431f274f49f175, type: 3}
+  m_Name: Phone Call
+  m_EditorClassIdentifier: 
+  lines:
+  - Yeah that's it ! Now it's time to get to work !
+  - Each day start at 09:00 and ends at 17:00. As we always need to have more products,
+    if you reach your goal before 15:00, you will have a little extra work.
+  - This is how The Never Too Late Program works, wonderful isn't it ?
+  - You can see your goal on the top left and the time on the top right of your screen.
+  - I will probably call you during the day. It is ALWAYS important so you have to
+    answer. If you don't you will have more work to do !
+  - Pick up the objects and bring them to the conveyor belt ! Don't forget you can
+    carry more than one at a time !

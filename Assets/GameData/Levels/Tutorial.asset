@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35b48b2e1f211441a7b1f788ce2047e, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  _startingGoal: 0
+  _additionalObjects: 5
+  _spawnedObjectsPrefabs:
+  - {fileID: 6778397554187310920, guid: 7032e98d003353b43ba86fca52adc9cd, type: 3}
+  - {fileID: 4737209209042708907, guid: 138ccb2cb4631904695de6b37cf54dc4, type: 3}
+  - {fileID: 4737209209042708907, guid: e9f9562e0a5060249b12be7e6e17f168, type: 3}
+  - {fileID: 4737209209042708907, guid: 5823c39065bffdd4995bcf404fa25529, type: 3}
+  dayStart: 9
+  dayEnd: 17
+  dayNewTasksEnd: 15
+  timeScale: 1
+  phoneRingTimings:
+  - 9.25

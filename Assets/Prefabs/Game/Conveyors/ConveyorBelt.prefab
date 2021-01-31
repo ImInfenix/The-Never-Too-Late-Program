@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2030586622599939111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2030586622599939108}
+  - component: {fileID: 2030586622599939109}
+  m_Layer: 0
+  m_Name: ConveyorBelt
+  m_TagString: ConveyorBelt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2030586622599939108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030586622599939111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2030586622599939109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030586622599939111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc3fc3b5f92004469949f16f2564ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transferType: 0
+  isFinisher: 0
+  transferAxis: 1
+  transferDirection: 1
+  singleElementSize: 1
+  size: 5
+  spawnOffset: {x: 0, y: 0, z: 0}
+  speed: 1
+  conveyorBeltPartPrefab: {fileID: 6305925084449269289, guid: b1259edce1df2d844bad1cafb3aeac1f, type: 3}
+  conveyorBeltEntrancePrefab: {fileID: 1009425978693031997, guid: 5491b823ad25d6442a0cf1ec2b98f173, type: 3}
+  conveyorBeltExitPrefab: {fileID: 1009425978693031997, guid: 654b417fe895b1d4293aadb585486a9c, type: 3}
+  conveyorBeltFinisherPrefab: {fileID: 5901976367785748609, guid: b38da325afd9d2847a1bfd4c4ec4b79b, type: 3}
+  alwaysDraw: 1
